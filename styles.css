@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+  #header {
+    flex-direction: column;
+  }
+  
+  #header-img {
+    display: none;
+  }
+  #logo {
+    text-align: center
+  }
+ 
+  #logo {
+    padding: 10px;
+  }
+  #nav-bar {
+    width: 90%;
+    height: 40px;
+    justify-content: space-around;
+  }
+    
+ }
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: yellow;
+}
+
+.flex-container > div {
+  background-color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
